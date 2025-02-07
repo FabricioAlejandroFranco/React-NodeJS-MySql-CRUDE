@@ -1,0 +1,71 @@
+.App {
+  height: 100vh;
+  padding: 0px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.books {
+  display: flex;
+  gap: 10px;
+}
+
+.book {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+  background-color: aqua;
+  object-fit: cover;
+}
+
+.delete {
+  padding: 3px 6px;
+  border: 1px solid rgb(245, 100, 100);
+  color: rgb(245, 100, 100);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px; /* Add margin to separate from price */
+}
+
+.update {
+  padding: 3px 6px;
+  border: 1px solid rgb(166, 162, 245);
+  color: rgb(100, 127, 245);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px; /* Add margin to separate from price */
+}
+
+.price {
+  margin-bottom: 10px; /* Add margin to separate from buttons */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(166, 162, 245);
+}
+
+.formButton {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(166, 162, 245);
+  cursor: pointer;
+  font: bold;
+}
